@@ -7,11 +7,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/RosAtomLab/pocketbase/models/settings"
+	"github.com/RosAtomLab/pocketbase/tools/auth"
+	"github.com/RosAtomLab/pocketbase/tools/mailer"
+	"github.com/RosAtomLab/pocketbase/tools/types"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/pocketbase/pocketbase/models/settings"
-	"github.com/pocketbase/pocketbase/tools/auth"
-	"github.com/pocketbase/pocketbase/tools/mailer"
-	"github.com/pocketbase/pocketbase/tools/types"
 )
 
 func TestSettingsValidate(t *testing.T) {

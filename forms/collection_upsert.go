@@ -7,17 +7,17 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/RosAtomLab/pocketbase/core"
+	"github.com/RosAtomLab/pocketbase/daos"
+	"github.com/RosAtomLab/pocketbase/forms/validators"
+	"github.com/RosAtomLab/pocketbase/models"
+	"github.com/RosAtomLab/pocketbase/models/schema"
+	"github.com/RosAtomLab/pocketbase/resolvers"
+	"github.com/RosAtomLab/pocketbase/tools/dbutils"
+	"github.com/RosAtomLab/pocketbase/tools/list"
+	"github.com/RosAtomLab/pocketbase/tools/search"
+	"github.com/RosAtomLab/pocketbase/tools/types"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/daos"
-	"github.com/pocketbase/pocketbase/forms/validators"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/models/schema"
-	"github.com/pocketbase/pocketbase/resolvers"
-	"github.com/pocketbase/pocketbase/tools/dbutils"
-	"github.com/pocketbase/pocketbase/tools/list"
-	"github.com/pocketbase/pocketbase/tools/search"
-	"github.com/pocketbase/pocketbase/tools/types"
 )
 
 var collectionNameRegex = regexp.MustCompile(`^[a-zA-Z0-9][a-zA-Z0-9_]*$`)

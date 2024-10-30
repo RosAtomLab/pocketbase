@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/RosAtomLab/pocketbase/apis"
+	"github.com/RosAtomLab/pocketbase/tests"
 	"github.com/labstack/echo/v5"
-	"github.com/pocketbase/pocketbase/apis"
-	"github.com/pocketbase/pocketbase/tests"
 )
 
 func TestRequireGuestOnly(t *testing.T) {

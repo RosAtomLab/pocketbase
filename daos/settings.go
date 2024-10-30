@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/models/settings"
-	"github.com/pocketbase/pocketbase/tools/security"
+	"github.com/RosAtomLab/pocketbase/models"
+	"github.com/RosAtomLab/pocketbase/models/settings"
+	"github.com/RosAtomLab/pocketbase/tools/security"
 )
 
 // FindSettings returns and decode the serialized app settings param value.

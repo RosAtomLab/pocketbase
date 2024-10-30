@@ -14,14 +14,14 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/RosAtomLab/pocketbase/tools/filesystem/internal/s3lite"
+	"github.com/RosAtomLab/pocketbase/tools/list"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/credentials"
 	"github.com/aws/aws-sdk-go-v2/service/s3"
 	"github.com/disintegration/imaging"
 	"github.com/gabriel-vasile/mimetype"
-	"github.com/pocketbase/pocketbase/tools/filesystem/internal/s3lite"
-	"github.com/pocketbase/pocketbase/tools/list"
 	"gocloud.dev/blob"
 	"gocloud.dev/blob/fileblob"
 )

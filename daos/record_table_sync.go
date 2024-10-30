@@ -5,12 +5,12 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/RosAtomLab/pocketbase/models"
+	"github.com/RosAtomLab/pocketbase/models/schema"
+	"github.com/RosAtomLab/pocketbase/tools/dbutils"
+	"github.com/RosAtomLab/pocketbase/tools/security"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/models/schema"
-	"github.com/pocketbase/pocketbase/tools/dbutils"
-	"github.com/pocketbase/pocketbase/tools/security"
 )
 
 // SyncRecordTableSchema compares the two provided collections

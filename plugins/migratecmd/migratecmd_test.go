@@ -7,12 +7,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pocketbase/pocketbase/daos"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/models/schema"
-	"github.com/pocketbase/pocketbase/plugins/migratecmd"
-	"github.com/pocketbase/pocketbase/tests"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/RosAtomLab/pocketbase/daos"
+	"github.com/RosAtomLab/pocketbase/models"
+	"github.com/RosAtomLab/pocketbase/models/schema"
+	"github.com/RosAtomLab/pocketbase/plugins/migratecmd"
+	"github.com/RosAtomLab/pocketbase/tests"
+	"github.com/RosAtomLab/pocketbase/tools/types"
 )
 
 func TestAutomigrateCollectionCreate(t *testing.T) {

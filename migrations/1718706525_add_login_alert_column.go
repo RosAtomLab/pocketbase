@@ -3,11 +3,11 @@ package migrations
 import (
 	"slices"
 
+	"github.com/RosAtomLab/pocketbase/daos"
+	"github.com/RosAtomLab/pocketbase/models"
+	"github.com/RosAtomLab/pocketbase/models/schema"
+	"github.com/RosAtomLab/pocketbase/tools/security"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/daos"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/models/schema"
-	"github.com/pocketbase/pocketbase/tools/security"
 )
 
 // adds a "lastLoginAlertSentAt" column to all auth collection tables (if not already)

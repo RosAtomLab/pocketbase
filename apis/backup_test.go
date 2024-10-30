@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/RosAtomLab/pocketbase/core"
+	"github.com/RosAtomLab/pocketbase/tests"
 	"github.com/labstack/echo/v5"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/tests"
 	"gocloud.dev/blob"
 )
 

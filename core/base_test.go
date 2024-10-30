@@ -10,16 +10,16 @@ import (
 	"testing"
 	"time"
 
+	"github.com/RosAtomLab/pocketbase/daos"
+	"github.com/RosAtomLab/pocketbase/migrations"
+	"github.com/RosAtomLab/pocketbase/migrations/logs"
+	"github.com/RosAtomLab/pocketbase/models"
+	"github.com/RosAtomLab/pocketbase/tools/list"
+	"github.com/RosAtomLab/pocketbase/tools/logger"
+	"github.com/RosAtomLab/pocketbase/tools/mailer"
+	"github.com/RosAtomLab/pocketbase/tools/migrate"
+	"github.com/RosAtomLab/pocketbase/tools/types"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/daos"
-	"github.com/pocketbase/pocketbase/migrations"
-	"github.com/pocketbase/pocketbase/migrations/logs"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/tools/list"
-	"github.com/pocketbase/pocketbase/tools/logger"
-	"github.com/pocketbase/pocketbase/tools/mailer"
-	"github.com/pocketbase/pocketbase/tools/migrate"
-	"github.com/pocketbase/pocketbase/tools/types"
 )
 
 func TestNewBaseApp(t *testing.T) {

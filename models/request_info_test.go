@@ -3,7 +3,7 @@ package models_test
 import (
 	"testing"
 
-	"github.com/pocketbase/pocketbase/models"
+	"github.com/RosAtomLab/pocketbase/models"
 )
 
 func TestRequestInfoHasModifierDataKeys(t *testing.T) {

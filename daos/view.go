@@ -7,14 +7,14 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/RosAtomLab/pocketbase/models"
+	"github.com/RosAtomLab/pocketbase/models/schema"
+	"github.com/RosAtomLab/pocketbase/tools/inflector"
+	"github.com/RosAtomLab/pocketbase/tools/list"
+	"github.com/RosAtomLab/pocketbase/tools/security"
+	"github.com/RosAtomLab/pocketbase/tools/tokenizer"
+	"github.com/RosAtomLab/pocketbase/tools/types"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/models/schema"
-	"github.com/pocketbase/pocketbase/tools/inflector"
-	"github.com/pocketbase/pocketbase/tools/list"
-	"github.com/pocketbase/pocketbase/tools/security"
-	"github.com/pocketbase/pocketbase/tools/tokenizer"
-	"github.com/pocketbase/pocketbase/tools/types"
 )
 
 // DeleteView drops the specified view name.
