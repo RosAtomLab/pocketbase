@@ -7,14 +7,14 @@ import (
 	"context"
 	"log/slog"
 
+	"github.com/RosAtomLab/pocketbase/daos"
+	"github.com/RosAtomLab/pocketbase/models/settings"
+	"github.com/RosAtomLab/pocketbase/tools/filesystem"
+	"github.com/RosAtomLab/pocketbase/tools/hook"
+	"github.com/RosAtomLab/pocketbase/tools/mailer"
+	"github.com/RosAtomLab/pocketbase/tools/store"
+	"github.com/RosAtomLab/pocketbase/tools/subscriptions"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/daos"
-	"github.com/pocketbase/pocketbase/models/settings"
-	"github.com/pocketbase/pocketbase/tools/filesystem"
-	"github.com/pocketbase/pocketbase/tools/hook"
-	"github.com/pocketbase/pocketbase/tools/mailer"
-	"github.com/pocketbase/pocketbase/tools/store"
-	"github.com/pocketbase/pocketbase/tools/subscriptions"
 )
 
 // App defines the main PocketBase app interface.

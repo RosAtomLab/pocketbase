@@ -8,10 +8,10 @@ import (
 	"strings"
 	"syscall"
 
+	"github.com/RosAtomLab/pocketbase/cmd"
+	"github.com/RosAtomLab/pocketbase/core"
+	"github.com/RosAtomLab/pocketbase/tools/list"
 	"github.com/fatih/color"
-	"github.com/pocketbase/pocketbase/cmd"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/tools/list"
 	"github.com/spf13/cobra"
 )
 

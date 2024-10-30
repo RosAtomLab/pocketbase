@@ -3,11 +3,11 @@ package apis
 import (
 	"net/http"
 
+	"github.com/RosAtomLab/pocketbase/core"
+	"github.com/RosAtomLab/pocketbase/forms"
+	"github.com/RosAtomLab/pocketbase/models/settings"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/labstack/echo/v5"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/forms"
-	"github.com/pocketbase/pocketbase/models/settings"
 )
 
 // bindSettingsApi registers the settings api endpoints.
