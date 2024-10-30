@@ -2,6 +2,7 @@ package security
 
 import (
 	cryptoRand "crypto/rand"
+	"github.com/google/uuid"
 	"math/big"
 	mathRand "math/rand"
 	"time"
@@ -24,6 +25,12 @@ func RandomString(length int) string {
 // with the specified length and characters set.
 //
 // It panics if for some reason rand.Int returns a non-nil error.
+
+func RandomUUID() string {
+	id := uuid.New()
+	return id.String()
+}
+
 func RandomStringWithAlphabet(length int, alphabet string) string {
 	b := make([]byte, length)
 	max := big.NewInt(int64(len(alphabet)))
